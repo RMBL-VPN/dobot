@@ -2,7 +2,7 @@ apt update -y && apt upgrade -y
 apt install python3 python3-pip git -y
 apt-get install libjpeg-dev zlib1g-dev -y
 cd /etc/
-git clone https://github.com/casper9/dobot.git
+git clone https://github.com/RMBL-VPN/dobot.git
 pip3 install -r /etc/dobot/requirements.txt
 
 read -e -p "[*] Input your Nama Store : " nama
